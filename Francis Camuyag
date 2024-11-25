@@ -53,7 +53,9 @@ https://ln.run/1fZGp
 https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/onenews_hd1.mpd
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="CNN" tvg-logo="http://115.146.176.131/images/2acf9495fde07739914e7a7bb3ffee94.png" group-title="Local",CNN Philippines
-https://ln.run/PHCNN
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/133/cnninternational_dash/manifest.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/russel/images/f/fb/RPTV_Alternative_Logo_2024.png/revision/latest?cb=20240305140432" group-title="Local", RPTV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -113,7 +115,7 @@ https://ln.run/c03PQ
 #EXTINF:-1 tvg-id="SOLARFLIX.ph" tvg-logo="https://i.imgur.com/OgBDJ75.png" group-title="Local",SolarFlix
 http://rambutan.whatbox.ca:1234/stream/restream20/solarflix/master.m3u8?u=cGhjb3JuZXI=&p=011906897aea8319785bf3e3ebbfc4950a207678a7bd6b3d446a9835b510e77b
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Celestial Movies Pinoy" tvg-logo="https://i.imgur.com/e5IZsv3.png" group-title="Local",Celestial Movies Pinoy
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Celestial Movies Pinoy" tvg-logo="https://i.imgur.com/e5IZsv3.png" group-title="RESERVED CHANNELS",Celestial Movies Pinoy
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1977384,RESOLUTION=720x480,FRAME-RATE=29.97,CODECS="avc1.4d401e,mp4a.40.2"
 http://13.250.59.27:1234/stream/ipt...4bcd9f833988241cd28ea2865611b275d116285ba1128
 
@@ -210,10 +212,14 @@ https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd
 https://linearjitp02-playback.astro.com.my/dash-wv/linear/2305/manifest.mpd
 
 #EXTINF:-1 tvg-id="CINEMO!.ph" tvg-name="CineMo!" tvg-logo="https://htvc.vn/uploads/editor/images/Cinemaworld.png" group-title="Local",CinemaWorld
-https://bit.ly/4hiUdRY
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/134/cinemaworld/manifest.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/O5jBcL2.png" group-title="Local", Asian Food Network
-https://ln.run/7rN1n
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/134/cinemaworld/manifest.mpd
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="TLC" tvg-logo="https://logo.iptveditor.com/tlc.png" group-title="Local",TLC
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -271,7 +277,7 @@ http://linearjitp-playback.astro.com.my/dash-wv/linear/5067/default.mpd
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-#EXTINF:-1  group-title="Kids" tvg-id="" tvg-url="https://www.bevy.be/bevyfiles/singaporepremium.xml" tvg-logo="https://imgur.com/L9jF0ln.png",Boomerang
+#EXTINF:-1  group-title="Local" tvg-id="" tvg-url="https://www.bevy.be/bevyfiles/singaporepremium.xml" tvg-logo="https://imgur.com/L9jF0ln.png",Boomerang
 http://gcp-dash.ngslbs.com/TVD037/index.mpd
 
 
@@ -365,7 +371,9 @@ https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_taptv_sd.mpd
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-anc-global-dash-abscbnono/index.mpd
 
 #EXTINF:-1 tvg-id="CrimeInvestigation" group-title="Local" tvg-logo="https://imgur.com/KeM5KlR.png" ch-number="714",Crime & Investigation HD
-https://bit.ly/3UuNquV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/133/crimeinvestigation/manifest.mpd
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Lotus Macau" tvg-logo="https://cms.cignal.tv/Upload/Thumbnails/mo-macau-lotus-tv-3757.png" group-title="Local",Lotus Macau
 https://wag.ika.lat/stream/801543536
@@ -492,9 +500,6 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5079/default.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/c1/TV_MARIA_logo.png" group-title="Local", TV Maria
 https://ythls.armelin.one/channel/UCDXPB23ws_T0rVvrXVCYqyA.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/BN2SnhM/Ri-ARBj-Bi-L.png" group-title="Local",Star Television Broadcasting HD
-https://ln.run/dsimm
-
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Food_Network_logo.svg/1200px-Food_Network_logo.svg.png" group-title="Local",Food Network HD
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -620,6 +625,8 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/2601/default_primary.mpd
 #EXTINF:-1 tvg-id="24.7.DUMMY.us" tvg-logo="https://i.ibb.co/DknLzWc/Premier-Sports-2-removebg-preview.png" group-title="Local",Premier Sports 2
 http://iptvtree.net:8080/live/resplice/wdLIS4d9758INyuX/276599.ts
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="TrueFM TV" tvg-logo="https://i.ibb.co/b1ysLd1/fight-sports-one-destination-small-1-removebg-preview.png" group-title="Local",Fight Sports
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
 https://cdn08jtedge.indihometv.com/dassdvr/133/fightsport/manifest.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/40/Radyo5truefmlogo.webp" group-title="Local", TrueFM TV
@@ -1232,7 +1239,9 @@ http://bisdaktv.store/jmrk.php?channel=566962
 http://bisdaktv.store/jmrk.php?channel=566963
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="UK: DISNEY XD" tvg-logo="https://subsystem.indihome.co.id/cms-ih/assets/uploads/channel_list/UPLOAD-1696933461-.png" group-title="KIDS EXCLUSIVES",FUN PLANET
-https://bit.ly/4f53Imc
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/134/indikids/manifest.mpd
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Anime All Day" tvg-logo="https://i.ibb.co/Y78QGb2/USAJ3504502-A-20240520-T214506-SQUARE-removebg-preview.png" group-title="KIDS EXCLUSIVES",Anime All Day
 https://jmp2.uk/sam-USAJ3504502A.m3u8
@@ -1266,7 +1275,7 @@ https://c.mjh.nz/abc-kids.m3u8
 #EXTINF:-1 tvg-id="disneychannel.in" tvg-name="IN: Disney Channel (4K)" tvg-logo="https://i.ibb.co/26Nr9j0/GBBD1100010-UB-20230712-T021203-SQUARE-png-20230712021204-removebg-preview.png" group-title="KIDS EXCLUSIVES", Super Anime
 http://beanostudios-super-anime-1-gb.lg.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="andprivehd.in" tvg-name="" tvg-logo="https://provider-static.plex.tv/epg/cms/production/cf5d15fc-60ea-417b-8d71-3dbaab2b3521/FilmRiseAnime_Logo_Color.png" group-title="KIDS ECLUSIVES",  FilmRise Anime
+#EXTINF:-1 tvg-id="andprivehd.in" tvg-name="" tvg-logo="https://provider-static.plex.tv/epg/cms/production/cf5d15fc-60ea-417b-8d71-3dbaab2b3521/FilmRiseAnime_Logo_Color.png" group-title="KIDS EXCLUSIVES",  FilmRise Anime
 https://ln.run/TERFL
 
 #EXTINF:-1 channel-id="GBBD5100001HL" tvg-id="GBBD5100001HL" tvg-chno="4616" tvg-name="SuperToons TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD5100001HL_20241030T142601SQUARE.png" group-title="KIDS EXCLUSIVES", SuperToons TV
@@ -1823,7 +1832,9 @@ https://ln.run/Gq9Vp
 https://amg01255-secomcofites-my-myzen-en-plex-dj4yp.amagi.tv/playlist/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MTV Live" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8ffd63e6-658b-47d2-96d4-e379ebe20d61/dga94a7-478f4c18-a53e-423b-8d9d-9a7ba3616bb5.png/v1/fill/w_1192,h_670/logo_panda_channel_by_witchuta_dga94a7-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvOGZmZDYzZTYtNjU4Yi00N2QyLTk2ZDQtZTM3OWViZTIwZDYxXC9kZ2E5NGE3LTQ3OGY0YzE4LWE1M2UtNDIzYi04ZDlkLTlhN2JhMzYxNmJiNS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.8axwTs3hrysLASDJU3HXAuN4mXaG3zo9L4agQdkh0CE" group-title="RELAXIATION AREA",Panda TV
-https://bit.ly/3Cem2L3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69646b755f3130303030303030303030:e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/130/pandatv/manifest.mpd
 
 #EXTINF:-1 tvg-id="CookingPanda.us" tvg-logo="https://wallpapers.com/images/hd/cooking-panda-logo-smtp67j0oo3ttc43-smtp67j0oo3ttc43.png" group-title="RELAXIATION AREA",Cooking Panda
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46
