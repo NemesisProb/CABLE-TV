@@ -235,9 +235,12 @@ https://live.cltv36.tv:5443/LiveApp/streams/live.m3u8
 https://ln.run/hhAVS
 
 #EXTINF:-1 tvg-id="Nickelodeon" group-title="Local" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/52c74659-151c-4a1e-9eaf-b20fb4106ff1/dfqz18o-bcdcb7d4-043f-46d4-a2ec-3b3be42613fd.png/v1/fill/w_905,h_883/nick__nickelodeon__splat_2023_logo_v2_by_markpipi_dfqz18o-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU3MCIsInBhdGgiOiJcL2ZcLzUyYzc0NjU5LTE1MWMtNGExZS05ZWFmLWIyMGZiNDEwNmZmMVwvZGZxejE4by1iY2RjYjdkNC0wNDNmLTQ2ZDQtYTJlYy0zYjNiZTQyNjEzZmQucG5nIiwid2lkdGgiOiI8PTE2MDkifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.qErbXmzllFpZ8v4npa-davZXgOF4Kswp5ay_TPP38p4" ch-number="616",Nickelodeon
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d8520e96a1283ab6e5be538474bfa810:bda5f7bbc1e44096f779a0619fe9881f
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2511/default.mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"vaX3u8HkQJb3eaBhn+mIHw", "kid":"2FIOlqEoOrblvlOEdL+oEA" } ], "type":"temporary" }
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2511/default_ott.mpd
 
 #EXTINF:-1 group-title="Local" ch-number="472" tvg-id="Animax" tvg-chno="472" tvg-logo="https://static.wikia.nocookie.net/fic5689/images/c/c7/Animax_HD_Luxemgary_2022.png/revision/latest?cb=20221202220353",Animax HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -261,13 +264,18 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/CartoonitoHD/mpd/CartoonitoHD.mpd
 
 #EXTINF:-1 tvg-id="Nick Jr. HD - [Channel 472].id" tvg-name="" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/544627ef-b613-4f03-86c9-037e51bd8747/dg81i5p-9a91c59b-1204-45af-bd05-2b80e17ea4b2.png/v1/fill/w_847,h_646/nick_jr__splat_3d_logo_with_2_objects_by_markthenostalgiafan_dg81i5p-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQ2IiwicGF0aCI6IlwvZlwvNTQ0NjI3ZWYtYjYxMy00ZjAzLTg2YzktMDM3ZTUxYmQ4NzQ3XC9kZzgxaTVwLTlhOTFjNTliLTEyMDQtNDVhZi1iZDA1LTJiODBlMTdlYTRiMi5wbmciLCJ3aWR0aCI6Ijw9ODQ3In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.QrDR2E_SihXaeqHrYPxnlHesyT1kf2SObY6cdT-jBrY" group-title="Local", Nick JR.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fa65220c9f76e424173899df533a6d10:b4abbee95b69b3e80a0d141272c870db
-http://linearjitp-playback.astro.com.my/dash-wv/linear/9982/default.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"tKu+6Vtps+gKDRQScshw2w", "kid":"+mUiDJ925CQXOJnfUzptEA" } ], "type":"temporary" }
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/9982/default_primary.mpd
+
 
 #EXTINF:-1 tvg-id="MoonbugKids" group-title="Local" tvg-logo="https://linear-poster.astro.com.my/prod/logo/MoonbugKids.png" ch-number="618",Moonbug Kids
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e3cb7499710786eb105fab7b52459910:8ab093adabdc343b8734b7ecf0aea11a
-http://linearjitp-playback.astro.com.my/dash-wv/linear/5067/default.mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"irCTravcNDuHNLfs8K6hGg", "kid":"48t0mXEHhusQX6t7UkWZEA" } ], "type":"temporary" }
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://linearjitp-playback.astro.com.my:443/dash-wv/linear/5067/default_ott.mpd
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -546,9 +554,10 @@ https://atemecdnbalancer-voe.sysln.id/live/eds/FoodNetworkHD/mpd/FoodNetworkHD.m
 
 
 #EXTINF:-1 tvg-id="HGTV" ch-number="715" group-title="Local" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/HGTV_logo.png/1280px-HGTV_logo.png",HGTV HD
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8c1bb309955eee32882390abebe19810:2a695b046e7cf5811a634d1348441195
-https://linearjitp-playback.astro.com.my/dash-wv/linear/2502/default.mpd
+#KODIPROP:inputstream.adaptive.license_key=4d3d70298a8f442f9dee7c11a47c3edf:ff7a89f008a62664e5ebd821187296d1
+https://atemecdnbalancer-voe.sysln.id/live/eds/HGTVHD/mpd/HGTVHD.mpd
 
 #EXTINF:-1 tvg-id="BBCLifestyle" ch-number="717" group-title="Local" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/BBC_Lifestyle2.svg/1200px-BBC_Lifestyle2.svg.png",BBC Lifestyle HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -573,9 +582,11 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-tfcasia-dash-abscbnon
 https://linearjitp-playback.astro.com.my/dash-wv/linear/603/default.mpd
 
 #EXTINF:-1 tvg-id="GlobalTrekker" group-title="Local" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/482_144.png" ch-number="551",Global Trekker
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=92d34a84fae8e54de0a829629941be10:2fb39ab3f55333d5fa3e830ebf99ec16
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5094/default.mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"ZQOYNV+jPK7TAcU+cVI7uQ", "kid":"TcVubuYkS7aTBl7bfbywCQ" } ], "type":"temporary" }
+https://tglmp04.akamaized.net/out/v1/179412178c874c7fba3ca6b0d382cd92/manifest.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/t4HF5va.png" group-title="Local", HBO Signature HD
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -1101,13 +1112,16 @@ https://jmp2.uk/sam-US800003JM.m3u8
 
 #EXTINF:-1 tvg-id="Nickelodeon" group-title="KIDS NETWORKS" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/52c74659-151c-4a1e-9eaf-b20fb4106ff1/dfqz18o-bcdcb7d4-043f-46d4-a2ec-3b3be42613fd.png/v1/fill/w_905,h_883/nick__nickelodeon__splat_2023_logo_v2_by_markpipi_dfqz18o-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU3MCIsInBhdGgiOiJcL2ZcLzUyYzc0NjU5LTE1MWMtNGExZS05ZWFmLWIyMGZiNDEwNmZmMVwvZGZxejE4by1iY2RjYjdkNC0wNDNmLTQ2ZDQtYTJlYy0zYjNiZTQyNjEzZmQucG5nIiwid2lkdGgiOiI8PTE2MDkifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.qErbXmzllFpZ8v4npa-davZXgOF4Kswp5ay_TPP38p4" ch-number="616",Nickelodeon ASIA 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d8520e96a1283ab6e5be538474bfa810:bda5f7bbc1e44096f779a0619fe9881f
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2511/default.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"vaX3u8HkQJb3eaBhn+mIHw", "kid":"2FIOlqEoOrblvlOEdL+oEA" } ], "type":"temporary" }
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/2511/default_primary.mpd
+
 
 #EXTINF:-1 tvg-id="Nick Jr. HD - [Channel 472].id" tvg-name="" tvg-logo="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/544627ef-b613-4f03-86c9-037e51bd8747/dg81i5p-9a91c59b-1204-45af-bd05-2b80e17ea4b2.png/v1/fill/w_847,h_646/nick_jr__splat_3d_logo_with_2_objects_by_markthenostalgiafan_dg81i5p-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQ2IiwicGF0aCI6IlwvZlwvNTQ0NjI3ZWYtYjYxMy00ZjAzLTg2YzktMDM3ZTUxYmQ4NzQ3XC9kZzgxaTVwLTlhOTFjNTliLTEyMDQtNDVhZi1iZDA1LTJiODBlMTdlYTRiMi5wbmciLCJ3aWR0aCI6Ijw9ODQ3In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.QrDR2E_SihXaeqHrYPxnlHesyT1kf2SObY6cdT-jBrY" group-title="KIDS NETWORKS", NICK JR ASIA
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fa65220c9f76e424173899df533a6d10:b4abbee95b69b3e80a0d141272c870db
-http://linearjitp-playback.astro.com.my/dash-wv/linear/9982/default.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"tKu+6Vtps+gKDRQScshw2w", "kid":"+mUiDJ925CQXOJnfUzptEA" } ], "type":"temporary" }
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+https://linearjitp-playback.astro.com.my/dash-wv/linear/9982/default_primary.mpd
 
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/PBS_Kids_logo_(2022).svg/1200px-PBS_Kids_logo_(2022).svg.png?20220814214903" group-title="KIDS NETWORKS", PBS KIDS ASIA
 https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
@@ -1137,8 +1151,8 @@ http://45.148.145.152:8080/live/djdlangston3%40comcast.net/CqBbXL25Vhjb/755381.m
 https://atemecdnbalancer-voe.sysln.id/live/eds/CartoonitoHD/mpd/CartoonitoHD.mpd
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="DreamWorks Channel" tvg-logo="https://imgur.com/SASnGFo.png" group-title="KIDS NETWORKS",DreamWorks Channel
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b5bfe3554df2abcd37afe130a7e1d310:dccbdf043ac43d18be0b3eb43a582876
-https://linearjitp-playback.astro.com.my/dash-wv/linear/5095/default.mpd
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"3MvfBDrEPRi+Cz60Olgodg", "kid":"tb/jVU3yq803r+Ewp+HTEA" } ], "type":"temporary" }
+https://linearjitp-playback.astro.com.my/dash-wv/linear/5095/default_primary.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/cgfKSDP.png" group-title="KIDS NETWORKS", DreamWorks Tagalog
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
