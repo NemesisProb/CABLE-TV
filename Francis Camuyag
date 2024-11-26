@@ -330,6 +330,9 @@ https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/tvup_prd.mpd
 https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_rockextreme.mpd
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Love Nature HD" tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/483_144.png" group-title="Local",Love Nature HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=
 https://cdn08jtedge.indihometv.com/dassdvr/194/lovenature/manifest.mpd
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Rock Entertainment" tvg-logo="https://i.imgur.com/PR9DbtR.png" group-title="Local",Rock Entertainment HD
@@ -1186,7 +1189,7 @@ https://zoomoo-samsungau.amagi.tv/playlist720p.m3u8
 #EXTINF:-1 group-logo="https://fumcaustin.org/wp-content/uploads/2020/02/kids-club-1920-1080-1280x720.jpg"
 
 #EXTINF:-1 tvg-id="nickhdplus.in" tvg-name="IN: Nick+ FHD" tvg-logo="https://i.ibb.co/5LjbnZX/462558817-1147525850278473-8257900980366747608-n-removebg-preview.png" group-title="KIDS EXCLUSIVES", Nick+ HD
-https://bit.ly/nickHDitogustomo
+http://119.156.26.155:8000/play/a07i/index.m3u8
 
 #EXTINF:-1 tvg-id="nickhdplus.in" tvg-name="IN: Nick+ FHD" tvg-logo="https://i.ibb.co/89TNXNj/maxresdefault-removebg-preview.png" group-title="KIDS EXCLUSIVES", Nick Jr. by Pluto TV
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ca6748a37b88b269472dad9/master.m3u8?deviceType=vizio-watchfreeplus&deviceMake=vizio&deviceModel=vizio&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&vizio_app_domain=%7BAPP_DOMAIN%7D&vizio_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=vizio-watchfreeplus
@@ -1684,7 +1687,7 @@ https://bit.ly/3AkMHFE
 https://dvrfl06.tulix.tv/astv/astv-mnetmovies4/index.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Pix" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f4/Sony_Pix_new.png" group-title="Movie Central",Sony Pix
-http://line.clear-ocean.link/play/live.php?mac=00:1A:79:2D:2F:BF&stream=472281&extension=m3u8
+http://119.156.26.155:8000/play/a07d/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/330px-Sony_Movies_Logo.svg.png" group-title="Movie Central",Sony Movies
 http://apkandweb.ddns.net/6377635294/6663568605/711
@@ -1708,10 +1711,13 @@ http://tc-tct.douyucdn2.cn/dyliveflv1a/20415rnWbjg6Ex1K_2000.flv?wsAuth=3b64dd17
 https://bit.ly/4e4NJDE
 
 #EXTINF:-1 tvg-id="andflixhd.in" tvg-name="IN: &FLIX (4K)." tvg-logo="https://imgur.com/3BU6Wsg.png" group-title="Movie Central", &FLIX HD
-https://ln.run/6OaJx
+http://119.156.26.155:8000/play/a06x/index.m3u8
 
 #EXTINF:-1 tvg-id="andprivehd.in" tvg-name="IN: &PRIVE (4K)." tvg-logo="https://i.ibb.co/HTPJk7b/OIP-1-removebg-preview.png" group-title="Movie Central", &PRIVE HD
-https://ln.run/AYPv-
+http://119.156.26.155:8000/play/a07j/index.m3u8
+
+#EXTINF:-1 tvg-id="andprivehd.in" tvg-name="IN: &PRIVE (4K)." tvg-logo="https://i.ibb.co/GxPdLF9/1-removebg-preview.png" group-title="Movie Central",MN HD
+http://119.156.26.155:8000/play/a06o/index.m3u8
 
 #EXTINF:-1 tvg-id="andprivehd.in" tvg-name="" tvg-logo="#EXTINF:-1 tvg-id="andprivehd.in" tvg-name="" tvg-logo="https://i.imgur.com/UmuJkVB.png" group-title="Movie Central",Pluto TV Spotlight
 https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5ba3fb9c4b078e0f37ad34e8/master.m3u8?deviceType=vizio-watchfreeplus&deviceMake=vizio&deviceModel=vizio&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&vizio_app_domain=%7BAPP_DOMAIN%7D&vizio_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=vizio-watchfreeplus
@@ -1783,7 +1789,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 
 
 #EXTINF:-1 tvg-id="discoveryhd.in" tvg-name="IN: DISCOVERY (4K)." tvg-logo="https://i.ibb.co/3ycBLXg/discovery-inc-removebg-preview.png" group-title="Animals, Nature & History", DISCOVERY HD
-https://bit.ly/4enh50d
+http://119.156.26.155:8000/play/a07d/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Carib (FLOW) Discovery Science (D)" tvg-logo="https://i.ibb.co/HGbRMkk/png-clipart-discovery-science-discovery-channel-investigation-discovery-logo-science-television-text.png" group-title="Animals, Nature & History", Discovery Science
 https://bit.ly/40myfaD
@@ -1792,19 +1798,19 @@ https://bit.ly/40myfaD
 https://bit.ly/3AjCqJM
 
 #EXTINF:-1 tvg-id="animalplanethd.in" tvg-name="IN: ANIMAL PLANET (4K)." tvg-logo="https://i.ibb.co/mBFs4RQ/pinpng-com-animal-planet-png-4851143.png" group-title="Animals, Nature & History", ANIMAL PLANET HD
-https://bit.ly/3NLunsn
+https://denver1769.pages.dev/Discovery/animal_planet_hd_english.m3u8
 
 #EXTINF:-1 tvg-id="nationalgeographicchannelhd.in" tvg-name="IN: National GEO (4K)." tvg-logo="https://logos-world.net/wp-content/uploads/2020/09/National-Geographic-Channel-Logo-2001-2005.png" group-title="Animals, Nature & History",National Geographic HD
-https://bit.ly/3A8e59X
+http://119.156.26.155:8000/play/a06r/index.m3u8
 
 #EXTINF:-1 tvg-id="natgeowildhd.in" tvg-name="IN: NAT Geo Wild (4K)." tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/2560px-National_Geographic_Wild_logo.svg.png" group-title="Animals, Nature & History", NAT Geo Wild HD
-https://bit.ly/40otIV5
+http://119.156.26.155:8000/play/a06f/index.m3u8
 
 #EXTINF:-1 tvg-id="sonybbcearthhd.in" tvg-name="IN: Sony BBC EARTH (4K)." tvg-logo="https://i.ibb.co/8rWc2JK/sony-bbc-earth-possible-future-logo-by-red2222222222-dedcdbh-fullview-removebg-preview.png" group-title="Animals, Nature & History", Sony BBC EARTH HD
 http://bit.ly/4f2VV8G
 
 #EXTINF:-1 tvg-id="historytv18hd.in" tvg-name="IN: HISTORY TV (4K)." tvg-logo="https://i.ibb.co/sJmBCv2/47c6b578126225-Y3-Jvc-Cwx-MTgw-LDky-Mywz-Nj-Is-MTE2-removebg-preview.png" group-title="Animals, Nature & History",HISTORY HD
-https://bit.ly/3Ykz0yq
+http://119.156.26.155:8000/play/a07a/index.m3u8
 
 #EXTINF:-1 tvg-id="historytv18hd.in" tvg-name="IN: HISTORY TV (4K)." tvg-logo="https://i.ibb.co/tYVXTKn/1adventure-Earth-1-removebg-preview-1.png" group-title="Animals, Nature & History", Adventure Earth
 https://autentic-adventure-earth-1-au.lg.wurl.tv/playlist.m3u8
