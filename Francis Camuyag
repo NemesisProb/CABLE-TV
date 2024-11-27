@@ -42,7 +42,10 @@ http://115.146.176.131:80/TimRizal/TimRizal/90.m3u8
 #KODIPROP:inputstream.adaptive.license_key=53c3bf2eba574f639aa21f2d4409ff11:3de28411cf08a64ea935b9578f6d0edd
 https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd
 
-#EXTINF:-1 tvg-id="GMA.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/71/GMA_Network_Logo_%282024_Station_ID_Teaser_Promo%29.png/revision/latest?cb=20240627213154" group-title="Local",GMA
+#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="gma" tvg-logo="https://i.imgur.com/nMSt2j0.png" group-title="Local", GMA
+https://shorten.is/Mikeph-gmatv-backup-m3u8?.m3u8
+
+#EXTINF:-1 tvg-id="GMA.ph" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/71/GMA_Network_Logo_%282024_Station_ID_Teaser_Promo%29.png/revision/latest?cb=20240627213154" group-title="Local",GMA 2
 https://ln.run/1fZGp
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/bpRiu54.png" group-title="Local", One News HD
@@ -149,7 +152,7 @@ https://qp-pldt-live-grp-04-prod.akamaized.net/out/u/pbo_sd.mpd
 https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/viva_sd.mpd
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="CINEMO!" tvg-logo="https://static.wikia.nocookie.net/russel/images/f/f2/Cine_Mo%21_3D_Logo_2011.png" group-title="Local",Cinemo! Global
-https://cinemo-abscbn-ono.amagi.tv/playlist.m3u8
+https://d1bail49udbz1k.cloudfront.net/out/v1/78e282e04f0944f3ad0aa1db7a1be645/index_3.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Jeepney TV" tvg-logo="https://static.wikia.nocookie.net/russel/images/0/0b/Jeepney_TV_3D_Logo_2015.png/revision/latest?cb=20230326142526" group-title="Local",Jeepney TV
 http://115.146.176.131:80/play/5i_LtAbpY7PhHy5sbZlWo1zYTxG-py1tWe97L_Ni7xk/ts
@@ -312,7 +315,9 @@ https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd
 https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="NBA TV Philippines" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/de/NBA_TV_Philippines.png" group-title="Local",NBA TV Philippines
-http://115.146.176.131:80/play/5i_LtAbpY7PhHy5sbZlWo4EDvaOXDkTskxk-MO00xMA/ts
+#KODIPROP:inputstream.adaptive.license_type=Clearkey
+#KODIPROP:inputstream.adaptive.license_key=f36eed9e95f140fabbc88a08abbeafff:0125600d0eb13359c28bdab4a2ebe75a
+https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.no76ookie.net/russel/images/8/8d/MPTV_Logo_2023.png/revision/latest/scale-to-width-down/1200?cb=20230822144008" group-title="Local", MPTV
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -349,9 +354,13 @@ https://linearjitp-playback.astro.com.my/dash-wv/linear/5096/default_primary.mpd
 https://tglmp02.akamaized.net/out/v1/621a7089e63144e4be7891cd9bfb10e2/manifest.mpd
 
 #EXTINF:-1 tvg-id="AXN" group-title="Local" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AXN_v1.png" ch-number="701",AXN HD
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c24a7811d9ab46b48b746a0e7e269210:c321afe1689b07d5b7e55bd025c483ce
-http://linearjitp-playback.astro.com.my/dash-wv/linear/2303/default.mpd
+#KODIPROP:inputstreamaddon=inputstream.adaptive 
+#EXTHTTP:{"dt-custom-data":"eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://lic-cubmux.konslet.workers.dev/4rr0w/play.wv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+https://cdnjkt4.transvision.co.id:1000/live/master/2/4028c6856b6088c3016b87da299e0b56/manifest.mpd
 
 #EXTINF:-1 tvg-id="" ch-number="411" group-title="Local" tvg-logo="https://i.imgur.com/VXmKNbB.png",Rock Action HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -496,11 +505,11 @@ https://ott.tv5monde.com/Content/HLS/Live/channel(seasie)/variant.m3u8
 https://linearjitp02-playback.astro.com.my/dash-wv/linear/9985/default.mpd
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="KBS World" tvg-logo="https://i.imgur.com/JAL3Ohz.png" group-title="Local",KBS World
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"kDHO+thTx4plwgIIIVMvPQ", "kid":"5VhM/9YVSROXuM3tXmecGQ" } ], "type":"temporary" }
-https://linear03-playback.sooka.my/CH1/masterCH1.mpd
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4dbd7f200e1f43c1a5a7b0bb4d753527:7fa839050222d118f97ba1f770f7d188
+https://atemecdnbalancer-voe.sysln.id/live/eds/KBSWorldHD/mpd/KBSWorldHD.mpd
+
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/Nd9gqA2.png" channel-number="1" group-title="Local", K+
 https://bit.ly/3YJLn8P
@@ -601,7 +610,9 @@ https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd
 https://qp-pldt-live-grp-06-prod.akamaized.net/out/u/cg_tapactionflix_hd1.mpd
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/3YvDUjL.png" group-title="Local", TAP Edge
-https://ln.run/zPfKe
+#KODIPROP:inputstream.adaptive.license_type=Clearkey
+#KODIPROP:inputstream.adaptive.license_key=4553f7e8011f411fb625cefc39274300:98f2f1d153367e84b5d559dc9dfb9a35
+https://qp-pldt-live-grp-12-prod.akamaized.net/out/u/dr_tapedge.mpd
 
 
 #EXTINF:-1 tvg-id="Dreamworks" group-title="Local" ch-number="612" tvg-logo="https://imgur.com/SASnGFo.png",DreamWorks (English) HD
@@ -1690,9 +1701,6 @@ http://line.clear-ocean.link/play/live.php?mac=00:1A:79:2D:2F:BF&stream=472273&e
 #EXTINF:-1 tvg-id="Dummy" tvg-name="Star Movies Select HD" tvg-logo="https://i.imgur.com/7OjPgvd.png" group-title="Movie Central",Star Movies Select HD
 http://line.clear-ocean.link/play/live.php?mac=00:1A:79:2D:2F:BF&stream=21109&extension=m3u8
 
-#EXTINF:-1 tvg-id="Dummy" tvg-name="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/HDNET_Movies_Logo.png" group-title="Movie Central", HDNET MOVIES 
-http://tkosportz.live:25461/AlFasano2/sg555AJGy2/13450
-
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="RAKUTEN TV FAMILY" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Rakuten_TV_logo.svg/768px-Rakuten_TV_logo.svg.png" group-title="Movie Central",RAKUTEN TV FAMILY
 https://rakuten-family-1-eu.rakuten.wurl.tv/2000.m3u8
 
@@ -1717,18 +1725,9 @@ https://fl1001.bozztv.com/ssh101/cinematimetv2/playlist.m3u8
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="CINEMA TV" tvg-logo="https://www.pngplay.com/wp-content/uploads/6/Cinema-Logo-PNG-HD-Quality.png" group-title="Movie Central",CINEMA TV
 https://rpn.bozztv.com/gusa/gusa-classiccinema/index.m3u8
 
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MNET MOVIES 1" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/M1D.png" group-title="Movie Central",M-Net Movies 1
-https://dvrfl06.tulix.tv/astv/astv-mnetmovies1/index.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MNET MOVIES 2" tvg-logo="#EXTINF:-1 tvg-id="mmovies2.za" tvg-name="DSTV: M-Net Movies 2 (FHD)" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/MAP.png" group-title="Movie Central",M-Net Movies 2
 https://dvrfl06.tulix.tv/astv/astv-mnetmovies2/index.m3u8
-
-#EXTINF:-1 tvg-id="mmovies3.za" tvg-name="DSTV: M-Net Movies 3 (FHD)" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/MCH.png" group-title="Movie Central",M-Net Movies 3 
-https://bit.ly/3AkMHFE
-
-
-#EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="MNET MOVIES 4" tvg-logo="https://03mcdecdnimagerepository.blob.core.windows.net/epguideimage/channel/MZE.png" group-title="Movie Central",M-Net Movies 4
-https://dvrfl06.tulix.tv/astv/astv-mnetmovies4/index.m3u8
 
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="Sony Pix" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f4/Sony_Pix_new.png" group-title="Movie Central",Sony Pix
 http://119.156.26.155:8000/play/a07d/index.m3u8
@@ -1748,7 +1747,7 @@ https://streams2.sofast.tv/ptnr-yupptv/title-SCIFI-WORLD-ENG_yupptv/v1/master/61
 #EXTINF:-1 tvg-logo="https://cdn1.clickthecity.com/wp-content/uploads/2020/07/18113202/k-movies-pinoy-logo-300x300.png" group-title="Movie Central",NEW K-MOVIES
 https://7732c5436342497882363a8cd14ceff4.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Plex_NewMovies/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/WnD4SsR/newscaster-live-television-huya-tv-illustration-png-favpng-KCCG6p966q0-Srwv-Ec-AXDEbj-TS-removebg-pr.png" group-title="Movie Central", Douyu Movies HD
+#EXTINF:-1 tvg-logo="https://i.ibb.co/WnD4SsR/newscaster-live-television-huya-tv-illustration-png-favpng-KCCG6p966q0-Srwv-Ec-AXDEbj-TS-removebg-pr.png" group-title="Movie Central", Douyu Movies 
 http://tc-tct.douyucdn2.cn/dyliveflv1a/20415rnWbjg6Ex1K_2000.flv?wsAuth=3b64dd17d293b133c58bda21e3147e5b&token=cpn-androidmpro-0-20415-b6774b3b3249db1768f0ac048c5ed218ac54e1f82b04b2bf&logo=0&expire=0&did=d010b07dcb997ada9934081c873542f0&origin=tct&vhost=play2
 
 #EXTINF:-1 tvg-id="moviesnowhd.in" tvg-name="IN: Movies Now (4K)" tvg-logo="https://i.ibb.co/FBXKYbz/png-transparent-movies-now-television-channel-high-definition-television-mn-movies-miscellaneous-tel.png" group-title="Movie Central", Movies Now HD
