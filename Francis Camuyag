@@ -242,9 +242,6 @@ https://dplus.gammacdn.workers.dev/videos/110.m3u8
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/48/Cl_tv_36_ph.png/revision/latest?cb=20130823135759" group-title="Local",CLTV 36
 https://live.cltv36.tv:5443/LiveApp/streams/live.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/nRRvQBg/OIP-5-removebg-preview.png" group-title="Local", SMNI 
-https://ln.run/hhAVS
-
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.ibb.co/BN2SnhM/Ri-ARBj-Bi-L.png" group-title="Local",Star Television Broadcasting HD
 https://glb.bozztv.com/glb/ssh101/startelevision/index.m3u8
 
